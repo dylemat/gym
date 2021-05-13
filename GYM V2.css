@@ -227,6 +227,9 @@ ul {
   flex: 1;
   /* background: rgb(116, 160, 180); */
 }
+/* .s-left, .s-right i{
+  font-size: 80px;
+} */
 
 .s-right {
   flex-direction: column;
@@ -552,6 +555,7 @@ footer a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: -2em;
 }
 .card{
   display: flex;
@@ -561,7 +565,7 @@ footer a {
   flex-direction: column;
 }
 .red-boxes i p{
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
 }
 .end{
@@ -577,7 +581,7 @@ footer a {
 display: flex;
 background-color:#191919;
 color:  white;
-
+margin-bottom: 22px;
 }
 
 .feat{
@@ -655,19 +659,19 @@ flex-direction: column;
 /* stack */
 
 .LegendItem {
-  min-height: 23px;
+  /* min-height: 23px; */
   font-size: 18px;
   /* margin: 2px 2px; */
 
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-items: stretch;
+  /* flex-flow: row nowrap; */
+  /* justify-content: flex-start; */
+  /* align-items: stretch; */
 }
 
 .LegendItem_Eye {
   margin-left: 52px;
-  /* width: 23px; */
+  width: 23px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -679,7 +683,7 @@ flex-direction: column;
   padding: 0 3px;
   flex: 1;
   padding: 11px 10px;
-  align-self: flex-start;
+  /* align-self: flex-start; */
   /* background: #eaa; */
   line-height: 1.3;
   text-align: justify;
@@ -949,6 +953,37 @@ a.about-btn:hover {
     justify-content: center;
     text-align: center;
   }
+  [class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.LegendItem_Eye{
+  display: none;
+  
+}
+.LegendItem_Text {
+  margin: auto;
+  max-width: 80%;
+}
+
+
+.icon-small + p {
+	/* font-size: 24px; */
+  /* font-weight: normal; */
+  padding-left: 0;
+  /* max-width: 80%; */
+  /* color: #00BDBD; */
+  /* width: 80%; */
+  margin:  1em;
+}
+
+
+
+
+
+
+
   .hero-offer{
     display: flex;
     flex-direction: column;
@@ -962,6 +997,33 @@ a.about-btn:hover {
     justify-content: center;
     text-align: center;
   }
+  span .icon-small{
+    text-align: center!;
+    /* flex:1; */
+    margin: auto!;
+  }
+  .mobile-pic{
+    margin: 2em 0;
+  }
+  .icon-small i .fa{
+    /* display: inline; */
+    /* padding: 0; */
+    /* display: none; */
+    /* width: 100%; */
+    /* text-align: center; */
+    /* margin: auto; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex: 1; */
+    /* display: flex; */
+    /* display: block; */
+  }
+  /* .icon-small +p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+  } */
 }
 
 .hamburger.active .bar:nth-child(2) {
