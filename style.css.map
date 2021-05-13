@@ -1,8 +1,11 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,MAAM,CAAA;EACF,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,KAA2B;CAChD;;ACHD,AAAA,EAAE,CAAA;EACE,WAAW,EAAE,GAAG;CACnB;;ACFD,AAAA,IAAI,CAAA;EACA,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,aAAa;EACpB,OAAO,EAAE,GAAG;CACf",
     "sources": [
-        "style.scss"
+        "style.scss",
+        "_footer.scss",
+        "_typo.scss",
+        "_colors.scss"
     ],
     "names": [],
     "file": "style.css"
