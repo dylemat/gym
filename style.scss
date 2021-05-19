@@ -566,6 +566,8 @@ ul {
 	margin: auto;
 	font-size: 24px;
 	text-align: start;
+	
+	
 	border: 1px solid $black;
 	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 	border-radius: 12px;
@@ -577,23 +579,28 @@ ul {
 	margin-right: auto;
 	width: 100%;
 }
-.contact-btn {
-	display: inline-block;
+button {
+	display: block;
+	border: 0;
 	margin: 10px 0;
 	padding: 0.5em;
 	color: $white;
 	background: $red;
 	text-align: center;
 }
-input {
+input ,textarea {
+	padding: 2px;
 	margin: 20px 0;
+	width: 100%;
 }
 .contact-left {
+	margin: 20px 0 ;
+	letter-spacing: 2px;
 	font-size: 20px;
 	height: 100%;
 	flex: 1;
-	padding: 15px;
-	line-height: 1.6;
+	padding: 25px;
+	line-height: 1.9;
 }
 .contact-right {
 	flex: 1;

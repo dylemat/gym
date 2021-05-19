@@ -172,7 +172,7 @@ footer {
 
 footer h2 {
   background: #000;
-  color: #f00;
+  color: #dc143c;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 22px;
@@ -249,17 +249,17 @@ footer a {
 }
 
 .nav-link:hover {
-  color: #f00;
+  color: #dc143c;
 }
 
 .red {
-  color: #f00;
+  color: #dc143c;
 }
 
 .nav-logo {
   font-size: 2.1rem;
   font-weight: 500;
-  color: #f00;
+  color: #dc143c;
 }
 
 @media only screen and (max-width: 768px) {
@@ -320,7 +320,7 @@ footer a {
 
 html {
   font-size: 62.5%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 li {
@@ -344,7 +344,7 @@ a.about-btn {
 
 a.about-btn:hover {
   color: #000;
-  background-color: #f00;
+  background-color: #dc143c;
   -webkit-transition: .2s ease-in;
   transition: .2s ease-in;
   border-color: 1px solid #000;
@@ -429,11 +429,11 @@ a.about-btn:hover {
 }
 
 span .fas {
-  color: #f00;
+  color: #dc143c;
 }
 
 span h1 {
-  color: #f00;
+  color: #dc143c;
   display: inline;
   background-color: #fff;
   font-size: 1.5em;
@@ -604,7 +604,7 @@ ul {
   font-size: 30px;
   font-weight: 800;
   background: #fff;
-  color: #f00;
+  color: #dc143c;
 }
 
 .about {
@@ -754,7 +754,7 @@ ul {
 .icon-small i {
   height: 38px;
   width: 38px;
-  color: #f00;
+  color: #dc143c;
   font-size: 24px;
   line-height: 15px;
   border-radius: 10%;
@@ -808,7 +808,7 @@ ul {
 .red-section {
   margin-bottom: 2em;
   margin-top: 3em;
-  background-color: #f00;
+  background-color: #dc143c;
   color: #fff;
 }
 
@@ -871,15 +871,7 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-button{
-  border: 0;
-  display: block;
-  margin: 10px 0;
-  padding: 0.5em;
-  color: white;
-  background: red;
-  text-align: center;
-}
+
 .end {
   background: #bde8ff;
   width: 100%;
@@ -1037,7 +1029,7 @@ button{
       -ms-flex-align: start;
           align-items: flex-start;
   padding: 11px 10px;
-  color: #f00;
+  color: #dc143c;
 }
 
 .LegendItem_Text {
@@ -1109,33 +1101,35 @@ button{
   width: 100%;
 }
 
-.contact-btn {
-  display: inline-block;
+button {
+  display: block;
+  border: 0;
   margin: 10px 0;
   padding: 0.5em;
   color: #fff;
-  background: #f00;
+  background: #dc143c;
   text-align: center;
 }
 
-input {
-  display: block;
+input, textarea {
+  padding: 2px;
   margin: 20px 0;
+  width: 100%;
 }
 
 .contact-left {
+  margin: 20px 0;
+  letter-spacing: 2px;
   font-size: 20px;
   height: 100%;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  padding: 15px;
-  line-height: 1.6;
+  padding: 25px;
+  line-height: 1.9;
 }
 
 .contact-right {
-  justify-content: center;
-  align-items: center;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -1212,8 +1206,8 @@ input {
   background: #000;
   color: #fff;
   margin-bottom: 2em;
-  border-left: #f00 4px solid;
-  border-right: #f00 4px solid;
+  border-left: #dc143c 4px solid;
+  border-right: #dc143c 4px solid;
 }
 
 .quotte h2 {
