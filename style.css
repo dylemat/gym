@@ -871,7 +871,15 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
+button{
+  border: 0;
+  display: block;
+  margin: 10px 0;
+  padding: 0.5em;
+  color: white;
+  background: red;
+  text-align: center;
+}
 .end {
   background: #bde8ff;
   width: 100%;
@@ -1111,6 +1119,7 @@ ul {
 }
 
 input {
+  display: block;
   margin: 20px 0;
 }
 
@@ -1125,6 +1134,8 @@ input {
 }
 
 .contact-right {
+  justify-content: center;
+  align-items: center;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
