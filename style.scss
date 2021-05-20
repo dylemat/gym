@@ -16,7 +16,7 @@
 	width: auto;
 	margin-top: -1.875rem;
 	padding: 1rem;
-	color: $color_mine_shaft_approx;
+	color: $white;
 	font-weight: bold;
 	font-size: 3rem;
 	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
@@ -49,7 +49,7 @@ a {
 		max-width: 900px;
 		margin-right: -50%;
 		font-size: 16px;
-		color: $color_bombay_approx;
+		color: $white;
 		background-color: $black;
 		padding: 1em;
 		&:hover {
@@ -62,13 +62,15 @@ a {
 	}
 }
 .max {
+	text-align: center;
 	font-size: 34px;
 	font-weight: 800;
 	line-height: 1.1;
 }
 .hit {
-	font-size: 32px;
+	font-size: 4.5em;
 	font-weight: 800;
+	
 	line-height: 1em;
 	text-transform: uppercase;
 	text-align: center;
@@ -76,9 +78,12 @@ a {
 	letter-spacing: 8px;
 }
 .parag {
+	margin: 10px 0;
+	padding: 22px ;
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 1.6em;
+	text-align: center;
 }
 .hero {
 	margin-top: 4em;
@@ -90,10 +95,11 @@ a {
 		justify-self: flex-end;
 	}
 }
+
 .right {
 	flex: 40%;
 	text-align: center;
-	background: $color_french_pass_approx;
+	background: $color_bluelight;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -110,15 +116,20 @@ a {
 		text-decoration: none;
 		font-size: 1.5em;
 		border: 3px solid $black;
-		background-color: $black_80;
+		background-color: $black;
 	}
 	p {
 		display: block;
 	}
 }
+.fa-ul li{
+	
+	padding: 5px 0;
+}
 span {
 	.fas {
 		color: $red;
+		
 	}
 	h1 {
 		color: $red;
@@ -132,7 +143,7 @@ span {
 		display: inline-block;
 		font-size: 3.1em;
 		//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-		text-shadow: $color_mine_shaft_approx;
+		text-shadow: $color_mine;
 	}
 }
 ul {
@@ -145,7 +156,7 @@ ul {
 	align-items: center;
 	justify-content: center;
 	flex: 60%;
-	background: $color_mystic_approx;
+	background: $color_mystic;
 }
 .book {
 	display: inline-block;
@@ -155,7 +166,7 @@ ul {
 	padding: 1em;
 }
 .ssection {
-	margin-top: 5em;
+	margin-top: .1em;
 	display: flex;
 	height: auto;
 	.btn {
@@ -169,16 +180,18 @@ ul {
 		text-decoration: none;
 		font-size: 1.5em;
 		border: 3px solid;
-		background-color: $color_thunderbird_80_approx;
+		background-color: $red;
 	}
 	i {
-		margin: 1em;
+		margin: .5em;
+		
 	}
 	ul {
-		margin-left: -70%;
-		margin-top: 1em;
+	
+		margin: 1em 0;
 		li {
 			font-size: 16px;
+			padding: 5px 0;
 			margin: 0;
 			list-style: disc;
 		}
@@ -211,7 +224,7 @@ ul {
 	display: flex;
 	width: 100%;
 	height: 40vh;
-	background: $color_nobel_884_approx;
+	background: $color_nobel;
 	flex-direction: column;
 	align-items: center;
 	.btn {
@@ -246,7 +259,8 @@ ul {
 	max-width: 80%;
 	margin: auto;
 	i {
-		margin-top: 1em;
+		font-size: 200px;
+		margin-top: .2em;
 		align-self: center;
 	}
 	h3 {
@@ -278,7 +292,7 @@ ul {
 		font-weight: 500;
 		line-height: 32.4px;
 		padding: 0.5em;
-		background: $white_80;
+		background: $white;
 	}
 	h1 {
 		padding: 0.8em;
@@ -304,7 +318,7 @@ ul {
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
-	background: $color_bombay_approx;
+	background: $color_bombay;
 }
 .mySlides {
 	display: none;
@@ -335,7 +349,7 @@ ul {
 	height: auto;
 	text-align: center;
 	padding: 0 1.25rem;
-	background: $color_bombay_approx;
+	background: $color_bombay;
 	padding: 2em;
 }
 .dot {
@@ -349,7 +363,7 @@ ul {
 	transition: background-color 0.4s ease;
 }
 .active {
-	background-color: $color_mine_shaft_approx;
+	background-color: $color_mine;
 }
 .icon-small {
 	display: flex;
@@ -376,7 +390,7 @@ ul {
 	h4 {
 		font-size: 32px;
 		font-weight: bold;
-		color: $color_mine_shaft_approx;
+		color: $color_mine;
 	}
 }
 .details {
@@ -441,14 +455,14 @@ ul {
 	flex-direction: column;
 }
 .end {
-	background: $color_french_pass_approx;
+	background: $color_bluelight;
 	width: 100%;
 	display: flex;
 }
 .hero-offer {
 	margin-top: 2em;
 	display: flex;
-	background-color: $color_cod_gray_approx;
+	background-color: $color_cod;
 	color: $white;
 	margin-bottom: 22px;
 }
@@ -486,7 +500,7 @@ ul {
 	margin: auto;
 	flex: 50%;
 	text-align: center;
-	background: $color_french_pass_approx;
+	background: $color_bluelight;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -537,7 +551,7 @@ ul {
 	text-align: justify;
 }
 .hero-contact {
-	background: $color_river_bed_approx;
+	background: $color_grey;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -612,12 +626,12 @@ input ,textarea {
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
-	background-color: $color_silver_chalice_approx;
-	text-decoration: $color_dove_gray_approx;
+	background-color: $color_grey;
+	
 	text-align: center;
 	h1 {
 		background: $white;
-		color: $color_bombay_approx;
+		color: $color_grey;
 		font-size: 60px;
 		text-transform: uppercase;
 		padding: .2em;
@@ -665,15 +679,15 @@ input ,textarea {
 }
 .fifty {
 	margin-top: 44px;
-	color: $color_purple_heart_approx;
+	
 	display: flex;
-	background: $color_gull_gray_267_approx;
+	// background: $color_gull_gray_267_approx;
 }
 .fifty-left {
 	flex: 70%;
 	text-align: center;
 	font-weight: 900;
-	color: $cornflower_blue;
+	// color: $cornflower_blue;
 }
 .fifty-right {
 	flex: 30%;
@@ -683,7 +697,16 @@ input ,textarea {
 	.hero {
 		display: flex;
 		flex-direction: column;
+		
+	}	.max{
+		font-size:30px;
+			padding-top: 10px;
+			padding-bottom: 10px 
 	}
+		
+		.right{
+			padding: 25px 0;
+		}
 	.ssection {
 		display: flex;
 		margin: 1em;
